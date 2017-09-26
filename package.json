@@ -1,0 +1,22 @@
+{
+  "name": "expressjs-api",
+  "version": "1.0.0",
+  "description": "Building a website using expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xenopol/expressjs-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xenopol/expressjs-api/issues"
+  },
+  "homepage": "https://github.com/xenopol/expressjs-api#readme",
+  "dependencies": {
+    "express": "^4.15.5"
+  }
+}
