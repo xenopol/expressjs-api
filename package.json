@@ -4,7 +4,9 @@
   "description": "Building a website using expressjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel --watch app.js --out-file ./dist/app.js",
+    "build": "node ./dist/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,12 @@
   "homepage": "https://github.com/xenopol/expressjs-api#readme",
   "dependencies": {
     "express": "^4.15.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
   }
 }
