@@ -1,0 +1,7 @@
+{
+    "speakers":[
+        {"name": "Marius Ailisoaie", "age": 21},
+        {"name": "Daniel Cazacu", "age": 24},
+        {"name": "Ion Vasile", "age": 25}
+    ]
+}
